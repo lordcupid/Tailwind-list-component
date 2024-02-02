@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.main-container{
+    width: 80%;
+    height: auto;
+    margin:6rem auto;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: 1px solid #d7d7d7;
+}
+
+
+.list-container{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.left-list-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+
+.image-container{
+    width: 52px;
+    height: 52px;
+
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 25rem;
+}
+.name-container{
+    padding-bottom: 0.8rem;
+ 
+}
+.name-and-email-container h3 {
+    color: #5B5B5B;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.name-and-email-container p {
+    color: #9B9898;
+    font-weight: 400;
+    font-size: 0.8rem;
+    cursor: pointer;
+   
+}
+.right-list-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1.5rem;
+    position: relative;
+}
+.position-container{
+    padding-bottom: 0.8rem;
+}
+.position-and-last-seen h3 {
+    color: #5B5B5B;
+    font-size: 1rem;
+}
+
+.position-and-last-seen p {
+    color: #9B9898;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.icon-container i{
+    cursor: pointer;
+    color: #A49FB2;
+}
+
+.fly-in-menu-container{
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    border: 1px solid #d7d7d7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #f8f8f8;
+    row-gap: 1.5rem;
+    visibility: hidden;
+    position: absolute;
+    top: 2rem;
+    left: 2.5rem;
+   
+}
+
+.fly-in-menu-container-new{
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    border: 1px solid #d7d7d7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #f8f8f8;
+    row-gap: 1.5rem;
+    visibility: visible;
+    position: absolute;
+    top: 2rem;
+    left: 2.5rem;
+}
